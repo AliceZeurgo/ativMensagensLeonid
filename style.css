@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    padding-top: 25vh;
+    height: 10vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 169, 228);
+}
+
+.card-container{
+    cursor: pointer;
+    background-color: rgb(251, 247, 253);
+    border: 2px solid rgb(247, 176, 231);
+    border-radius: 24px;
+    height: 110px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    gap: 12px;
+    font-size: 12px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    gap: 1rem;
+}
+
+p{
+    padding-left: 15px;
+}
+
+h1{
+    padding-left: 1rem;
+}
+
+h2{
+    background-color: rgb(255, 158, 255);
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atendente{
+    position: absolute;
+    background-color: rgb(231, 123, 226);
+    padding: 2px 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.status{
+    position: relative;
+    left: 260px;
+    top: -50px;
+}
+
+.rede img{
+    background-color:  rgb(255, 158, 250);
+    position: relative;
+    left: 9em;
+    top: 24px;
+    width: 50px;
+    height: 50px;
+}
